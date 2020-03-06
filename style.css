@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Tomorrow:300,400,500,700,900&display=swap');
+body{
+	font-family: 'Tomorrow', sans-serif; 
+	background-color: #CECECE;
+}
+
+header{
+	padding: 10px 10px;
+	background-color: #282828;
+}
+.etiquet img{
+	height: 50px;
+	margin-left: 40px;
+}
+.lupa{
+	height: 30px;
+}
+/**
+.lupa{
+	
+}
+.barra{
+	text-align: center;
+	background-color: white;
+	border-radius: 20px;
+	margin: 5px 140px;
+	padding-top: 10px;
+	color: #E0E0E0;
+} **/
+.cabeza {
+	text-align: justify
+}
+.imagen{
+	background-image: url("../img/mejores-celulares-2018.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding: 14% 12%;
+	margin: 30px 0px;
+}
+
+#articulos .prin{
+	border: 2px solid #000;
+	margin: 15px 0;
+	padding: 15px;
+	background-color: #fff;
+}
+#articulos .separate{
+	border: 2px dotted #000;
+	left: 5%;
+	background-color: #fff; 
+	margin: 15px 0;
+}
+.separate h4{
+	padding: 10px 0;
+}
+
+.ar{
+	border: 2px solid #000;
+	border-radius: 3px;
+	margin: 15px 0;
+	background-color: #fff;
+}
+.ar img{
+	padding: 5px;
+}
+#banner img{
+	width: 25%;
+	height: 100%;
+}
+#banner{
+	background-color: #000;
+	margin: 20px 50px;
+}
+
+.tomorrow {
+	
+	font-family: 'Tomorrow', sans-serif;
+}
+
+.bold{
+	font-weight: bold;
+}
+.light{
+	font-weight: 900;
+}
+
+
+#info-footer p{margin-bottom: 0;}
+#info-footer{
+	background-color: #282828;
+	color: #fff;
+	font-size: 14px;
+	padding: 20px 0;
+}
+.redes {
+	margin-bottom: 0;
+}
+.redes i{
+	background-color: #434343;
+	color: #fff;
+	width: 45px;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+	border-radius: 100%;
+}
+#copyright p{
+	margin-bottom: 0;
+}
+#copyright{
+background-color: #1C1C1C;
+	color: #454545;
+	text-align: center;
+	padding: 10px;
+}
+
+.etiquet img{
+	height: 50px;
+	margin-left: 40px;
+}
+#barra{
+	background-color: white;
+	border-radius: 40px;
+	margin: 5px 6px;
+	padding: 10px 80px 0px 20px;
+	color: #E0E0E0;
+}
+.cabeza {
+	text-align: justify
+}
+.integrantes {
+	 /**padding: 100px 40px 40px 40px;**/
+	margin-top: 90px;
+	margin-left: 90px;
+	margin-right: 90px;
+}
+.card-body{
+	background-size: contain;
+}
