@@ -12,6 +12,22 @@ header{
 	height: 50px;
 	margin-left: 40px;
 }
+#segunda{
+	background-color: #282828;
+	color: #FFFFFF;
+	
+}
+#primera{
+	padding: 40px;
+}
+.servicios2{
+	align-content: center;
+	text-align: center;
+	padding: 20px;
+}
+.serv{
+	margin: 0% 30%
+}
 .lupa{
 	height: 30px;
 }
@@ -21,15 +37,6 @@ header{
 .margin{
 	margin-top: 30px;
 }
-/**
-.imagen{
-	background-image: url("../img/mejores-celulares-2018.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-	padding: 14% 12%;
-	margin: 30px 0px;
-} **/
 
 .prin{
 	border: 2px solid #000;
@@ -167,8 +174,18 @@ background-color: #1C1C1C;
 	height: 500px;
 	
 }
+/*imagenes de fondo*/
 .imagen{
 	background-image: url(../img/Science-week-article.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #FFFFFF;
+	background-position: center center;
+	padding: 16% 12%;
+	margin: 30px 0px;
+}
+.imagen_t{
+	background-image: url( "../img/fleet-of-transportation-cars-for-all-occassions.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #FFFFFF;
@@ -184,4 +201,15 @@ width: 100%;
 }
 .video h4{
 	text-align: center;
+}
+
+/*Aqui empieza lo que he agregado*/
+#noticia{
+	margin: 50px 0;
+	text-align: justify;
+}
+
+#noticia p{
+	padding: 17px 0;
+	font-size: 18px;
 }
